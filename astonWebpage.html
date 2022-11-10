@@ -7,7 +7,21 @@
   </head>
   <body>
     <nav>
-      <img src="./logo.png" id="logo">
+      <!-- <img src="./logo.png" id="logo"> -->
+      <svg height="5.7em" width="9.6em">
+        <defs>
+          <linearGradient id="color-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(224 114 19);stop-opacity:1" />
+            <stop offset="60%" style="stop-color:rgb(224 114 19);stop-opacity:1" />
+            <stop offset="60%" style="stop-color:black;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:black;stop-opacity:1" />
+          </linearGradient>
+          </defs>
+        <ellipse cx="3.28em" cy="1.9em" rx="3em" ry="1.75em" fill="url(#color-fill)" style="stroke:black;stroke-width:4" />
+        <text x="1.35em" y="2.6em" class="coast">Coast
+        <tspan x=".55em" y=".95em" class="rock">Rock<tspan/><text/>
+      </svg>
+
       <div id="nav-bar">
         <button class="nav-button">Home</button>
         <button class="nav-button">Televisions</button>
@@ -15,59 +29,61 @@
         <button class="nav-button">Services</button>
       </div>
     </nav>
-    <header>
-      <h2 class="orange-header">Something Occurs</h2>
-      <p id="paragraph-text">Within this space is some text, or other graphical representations of things that this page displays.</p>
-    </header>
-    <section id="products">
-      <h2 class="orange-header">Products</h2>
-      <section id="grid-product-box-container">
-        <article class="product-box">
-          <h5 class="product-header">Product Name</h5>
-          <div class="orange-box">
-            <p class="box-text">This is a product description <br> It takes up a few lines of space.</p>
-            <hr class="first-hr">
-            <section class="grid-container">
-              <div class="grid-item">Product Info:</div>
-              <div class="grid-item">Dimensions might go here</div>
-              <div class="grid-item">More Info:</div>
-              <div class="grid-item">Another piece of data</div>
-            </section>
-            <hr class="second-hr">
-            <button class="buy-button">Buy it now!</button>
-          </div>
-        </article>
-        <article class="product-box">
-          <h5 class="product-header">Product Name</h5>
-          <div class="orange-box">
-            <p class="box-text">This is a product description <br> It takes up a few lines of space.</p>
-            <hr class="first-hr">
-            <section class="grid-container">
-              <div class="grid-item">Product Info:</div>
-              <div class="grid-item">Dimensions might go here</div>
-              <div class="grid-item">More Info:</div>
-              <div class="grid-item">Another piece of data</div>
-            </section>
-            <hr class="second-hr">
-            <button class="buy-button">Buy it now!</button>
-          </div>
-        </article>
-        <article class="product-box">
-          <h5 class="product-header">Product Name</h5>
-          <div class="orange-box">
-            <p class="box-text">This is a product description <br> It takes up a few lines of space.</p>
-            <hr class="first-hr">
-            <section class="grid-container">
-              <div class="grid-item">Product Info:</div>
-              <div class="grid-item">Dimensions might go here</div>
-              <div class="grid-item">More Info:</div>
-              <div class="grid-item">Another piece of data</div>
-            </section>
-            <hr class="second-hr">
-            <button class="buy-button">Buy it now!</button>
-          </div>
-        </article>
-    </section>
+    <section id="main-body">
+      <header>
+        <h2 class="orange-header">Something Occurs</h2>
+        <p id="paragraph-text">Within this space is some text, or other graphical representations of things that this page displays.</p>
+      </header>
+      <section id="products">
+        <h2 class="orange-header">Products</h2>
+        <section id="grid-product-box-container">
+          <article class="product-box">
+            <h5 class="product-header">Product Name</h5>
+            <div class="orange-box">
+              <p class="box-text">This is a product description <br> It takes up a few lines of space.</p>
+              <hr class="first-hr">
+              <section class="grid-container">
+                <div class="grid-item">Product Info:</div>
+                <div class="grid-item">Dimensions might go here</div>
+                <div class="grid-item">More Info:</div>
+                <div class="grid-item">Another piece of data</div>
+              </section>
+              <hr class="second-hr">
+              <button class="buy-button">Buy it now!</button>
+            </div>
+          </article>
+          <article class="product-box">
+            <h5 class="product-header">Product Name</h5>
+            <div class="orange-box">
+              <p class="box-text">This is a product description <br> It takes up a few lines of space.</p>
+              <hr class="first-hr">
+              <section class="grid-container">
+                <div class="grid-item">Product Info:</div>
+                <div class="grid-item">Dimensions might go here</div>
+                <div class="grid-item">More Info:</div>
+                <div class="grid-item">Another piece of data</div>
+              </section>
+              <hr class="second-hr">
+              <button class="buy-button">Buy it now!</button>
+            </div>
+          </article>
+          <article class="product-box">
+            <h5 class="product-header">Product Name</h5>
+            <div class="orange-box">
+              <p class="box-text">This is a product description <br> It takes up a few lines of space.</p>
+              <hr class="first-hr">
+              <section class="grid-container">
+                <div class="grid-item">Product Info:</div>
+                <div class="grid-item">Dimensions might go here</div>
+                <div class="grid-item">More Info:</div>
+                <div class="grid-item">Another piece of data</div>
+              </section>
+              <hr class="second-hr">
+              <button class="buy-button">Buy it now!</button>
+            </div>
+          </article>
+      </section>
+      </section>
     </section>
   </body>
 </html>

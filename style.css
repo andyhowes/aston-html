@@ -1,6 +1,13 @@
 body {
   font-family: Tahoma, sans-serif;
   font-size:small;
+  background-color: black;
+}
+
+#main-body {
+  background-color: white;
+  border-radius: 15px;
+  padding-left: .7em;
 }
 
 .first-hr {
@@ -18,6 +25,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
   letter-spacing: .2em;
+  padding-top: .5em;
+  font-size:large;
 }
 
 .product-box {
@@ -55,7 +64,7 @@ button:hover {
 }
 
 #logo {
-  width: 10em;
+  width: 11em;
   margin-right: .75em;
 }
 
@@ -81,6 +90,10 @@ nav {
   font-size:small;
 }
 
+.buy-button:hover {
+  border-color: white;
+}
+
 .nav-button {
   margin: .5em;
 }
@@ -104,7 +117,6 @@ nav {
 
 #paragraph-text {
   font-size:12.5px;
-  padding-bottom: 1em;
 }
 
 #grid-product-box-container {
@@ -112,4 +124,19 @@ display: inline-grid;
 column-gap: 1.5em;
 grid-template-columns: auto auto auto;
 grid-template-rows: auto;
+padding-bottom: 1em;
+padding-left: 1.5em;
+}
+
+.coast {
+  fill: white;
+  font-family:Helvetica;
+  font-size:24px;
+}
+
+.rock {
+  fill: black;
+  font-family:Brush Script MT, cursive;
+  font-size: 44px;
+  font-style: italic;
 }
